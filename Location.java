@@ -18,7 +18,7 @@ public class Location {
             this.exits = new HashMap<String, Integer>(exits);
         }
         else {
-            this.exits = new HashMap<String, Integer>(exits);
+            this.exits = new HashMap<String, Integer>();
         }
         this.exits.put("Q", 0);
     }
